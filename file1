@@ -1,0 +1,4 @@
+tag - an object referening a specific commit in a project history. similar to chapter refernce ina book 
+we can create a tags to point version release, a significant codebase change, or any event development terms may want to refernce
+syntax- git tag -i <tag name> -m "tag message" <commit id>
+to push tag to remote repository- git push origin tag <tag name>

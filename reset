@@ -1,0 +1,11 @@
+git reset-
+ it is used to undo the changes in your working directory
+ and get back to a specific commit while discarding all the commits made after that one.
+ for instance ,imagine you made ten commits ,Using git reset on the first commit will remove all nine commits 
+ taking back to the first commit stage.
+ SYNTAX-git revert --soft  <commit id> it will move data from local repository to staging area
+        git revert --mixed <commit id> it will move data from local and staging area to working directory
+	git revert --hard   <commit id> it will move data from local, staging and working directory
+NOTE :- The below commit id should be taken to remove the above commits. to reset commit-3 we have to 
+        give commit id of commit-2
+	

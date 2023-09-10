@@ -1,0 +1,3 @@
+reflog- to restore the data from the deleted branch or mistakenly deleted branch
+step-1: git reflog -to see all commits
+step-2: git checkout -b branch <commit head name>

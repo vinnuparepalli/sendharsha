@@ -1,0 +1,4 @@
+cherry-pick
+first we have to choose which commit we want to apply on another branch
+copy the commit id and switch to the branch where we want to apply the commit
+syntax- git cherry-pick <commit id>
