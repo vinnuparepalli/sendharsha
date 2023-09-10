@@ -1,0 +1,11 @@
+git stash-
+ Developer can run the git stash command to save their changes in a stash stack
+ Stashable files include untracked files, newly added files and modified files.
+ SYNTAX-
+ git stash save -m "stash message" -- to stash the changes 
+ git stash list --to list stash commits
+ git stash apply <stash head>  --to recover the stash data
+ git stash pop <stash head> --to recover the stash data and del the in stash list/stash history
+ git stash drop <stash head> --to drop/del the top stash 
+ git stash clear --to clear all stash data and stash history
+ NOTE:- to apply the stash command the file should be commited atleast one time
