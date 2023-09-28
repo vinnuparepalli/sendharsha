@@ -1,3 +1,4 @@
 1.After incerting the data in the new branch or incert data in new file (after commit).
-2.we merge the two branches using command - git merge <branch name> - we need to checkout the branch to which branch we branch we want to merge
+2.we merge the two branches using command - git merge <branch name> 
+- we need to checkout the branch to which branch we branch we want to merge
 
