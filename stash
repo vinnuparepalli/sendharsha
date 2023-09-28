@@ -8,4 +8,5 @@ git stash-
  git stash pop <stash head> --to recover the stash data and del the in stash list/stash history
  git stash drop <stash head> --to drop/del the top stash 
  git stash clear --to clear all stash data and stash history
- NOTE:- to apply the stash command the file should be commited atleast one time
+ NOTE:- to apply the stash command the file should be commited atleast one time / there should be atleast 
+one commit.
